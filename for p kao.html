@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <mete charset="UTF-8">
+    <title>Day 1 Website</title>
+    <style>
+        body {
+          font-family: 'Sarabun', sans-serif;
+          text-align:center;
+          background: linear-gradient(135deg,rgb(23, 23, 112),rgb(27, 82, 153),rgb(46, 136, 255));
+          padding-top: 80px;
+        }
+        h1{color: rgb(255, 255, 255);}
+        button{
+            padding: 100px 200px;
+            font-size: 100px;   
+            border:none;
+            border-radius: 8px;
+            background: rgb(219, 12, 12);
+            color:white;
+            cursor:wait;
+        }
+    p{
+        font-size:100px;
+        color:rgb(255, 3, 150);
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Day 1 Website</h1>
+    <p id="P_mike_so_handsome"></p>
+    <button onclick="sayhi()">กดสิ่ค่ะ</button>
+    <img src="https://media.komchadluek.net/uploads/images/contents/w1024/2022/06/Po52YFdnF6HiVBVEMdVa.webp?x-image-process=style/lg-webp">
+
+    <script>
+        function sayhi(){
+            document.getElementById("P_mike_so_handsome").textContent="พี่เก้าหำใหญ่"
+        }
+    </script>
+</body>
+</html>
